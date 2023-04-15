@@ -1,0 +1,11 @@
+.accueil .gallery {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+    margin-bottom: 7rem;
+}

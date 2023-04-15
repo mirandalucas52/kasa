@@ -1,0 +1,22 @@
+#error404 {
+    color: #ff6060;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+#error404 h2 {
+    font-size: 288px;
+    font-weight: 700;
+}
+
+#error404 p {
+    font-size: 36px;
+}
+
+#error404 a {
+    color: #ff6060;
+}

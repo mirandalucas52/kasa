@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header img {
+    max-width: 100%;
+}
+
+.headerNav .active {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.headerNav ul {
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.headerNav a {
+    text-decoration: none;
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 1.4rem;
+}

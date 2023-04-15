@@ -1,0 +1,8 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 5rem;
+    max-width: 1024px;
+    margin: 0 auto 2rem auto;
+}
