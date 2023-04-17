@@ -1,0 +1,124 @@
+.logement {
+    color: #ff6060;
+}
+
+.logementCover {
+    height: 415px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.logementFirstWrap {
+    display: flex;
+    justify-content: space-between;
+    width: ;
+}
+
+.logementRightFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+}
+
+.logementTitle {
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+.logementLocate {
+    font-size: 1.13rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.logementHostName {
+    width: 50%;
+    text-align: right;
+    font-size: 1.13rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.logementHostPicture {
+    height: 64px;
+    width: 64px;
+    border-radius: 50px;
+}
+
+.wrapTagsRating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.logementTagsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.logementTag {
+    color: white;
+    background-color: #ff6060;
+    border-radius: 10px;
+    min-width: 100px;
+    text-align: center;
+    margin: 0 9px 0 0;
+    font-size: 0.9rem;
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+}
+
+.rating {
+    display: inline-flex;
+    align-items: center;
+    color: #ff6060;
+    font-size: 35px;
+}
+
+.rating::before {
+    content: "★★★★★";
+    letter-spacing: 3px;
+}
+
+.rating::before {
+    content: "★★★★★";
+    letter-spacing: 3px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+        to right,
+        #ff6060 0%,
+        #ff6060 var(--rating),
+        #e0e0e0 var(--rating),
+        #e0e0e0
+    );
+}
+
+.collapseContainer {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapseContainer > div {
+    width: 46%;
+}
+
+.logement .dropdown-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.logement .dropdown-content {
+    padding: 2rem 1.5rem;
+    font-size: 18px;
+}
+
+.logement .dropdown-container {
+    margin-bottom: 3rem;
+}
