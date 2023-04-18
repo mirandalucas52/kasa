@@ -15,8 +15,39 @@
 
 #error404 p {
     font-size: 36px;
+    text-align: center;
 }
 
 #error404 a {
     color: #ff6060;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    #error404 {
+        justify-content: center;
+    }
+
+    #error404 h2 {
+        font-size: 27vw;
+    }
+
+    #error404 p {
+        font-size: 1.5rem;
+    }
+
+    #error404 a {
+        margin-top: 4rem;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #error404 p {
+        font-size: 1rem;
+    }
+
+    #error404 a {
+        font-size: 14px;
+    }
 }

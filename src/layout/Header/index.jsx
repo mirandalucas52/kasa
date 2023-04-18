@@ -28,7 +28,7 @@ function Header() {
                     <li>
                         <Link
                             to="/a_propos"
-                            onClick={() => handleClick("A propos")}
+                            onClick={() => handleClick("A Propos")}
                             className={
                                 location.pathname === "/a_propos"
                                     ? "active"

@@ -2,19 +2,9 @@
     color: #ff6060;
 }
 
-.logementCover {
-    height: 415px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 25px;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
 .logementFirstWrap {
     display: flex;
     justify-content: space-between;
-    width: ;
 }
 
 .logementRightFlex {

@@ -1,12 +1,18 @@
 import { useParams } from "react-router-dom";
 import "./Logement.css";
 import Collapse from "../../components/Collapse/index";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+import Slider from "../../components/Caroussel";
+import datas from "../../logements.json";
 
-function Logement(props) {
+function Logement() {
     const { id } = useParams();
+    const logement = datas.find((data) => data.id === id);
+    const [imageSlider, setImageSlider] = useState([]);
 
-    const logement = props.datas.find((data) => data.id === id);
+    useEffect(() => {
+        setImageSlider(logement.pictures);
+    }, [logement]);
 
     useEffect(() => {
         const topElement = document.getElementById("top");
@@ -17,11 +23,7 @@ function Logement(props) {
 
     return (
         <div className="logement">
-            <img
-                className="logementCover"
-                src={logement.cover}
-                alt={logement.description}
-            />
+            <Slider imageSlider={imageSlider} />
             <div className="logementFirstWrap">
                 <div>
                     <h1 className="logementTitle">{logement.title}</h1>

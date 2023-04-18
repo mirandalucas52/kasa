@@ -6,7 +6,11 @@ import "./About.css";
 function Apropos() {
     return (
         <div>
-            <Banner displayText={false} imageSrc={BannerImageApropos} />
+            <Banner
+                displayText={false}
+                imageSrc={BannerImageApropos}
+                imageAlt="Montagne"
+            />
             <section id="about">
                 <Collapse title="Fiabilité">
                     <p>

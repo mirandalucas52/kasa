@@ -18,7 +18,11 @@ function Accueil() {
 
     return (
         <div className="accueil">
-            <Banner displayText={true} imageSrc={BannerImage} />
+            <Banner
+                displayText={true}
+                imageSrc={BannerImage}
+                imageAlt="Bord de mer"
+            />
             <div className="gallery">
                 {datas.map((data) => (
                     <Card key={data.id} {...data} />
