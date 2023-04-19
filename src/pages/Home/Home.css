@@ -12,10 +12,14 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .accueil .gallery {
+        margin-bottom: 0;
+    }
+
     .accueil .banner .texte {
         font-size: 1.7rem;
         white-space: normal;
-        width: 95%;
+        width: 88%;
     }
     .accueil .item {
         width: 100%;

@@ -24,3 +24,9 @@
     font-size: 3rem;
     white-space: nowrap;
 }
+
+@media only screen and (max-width: 800px) {
+    .banner {
+        margin-bottom: 1.5rem;
+    }
+}
