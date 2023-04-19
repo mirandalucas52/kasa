@@ -5,11 +5,9 @@ import "./Header.css";
 function Header() {
     const location = useLocation();
 
-    const handleClick = () => {};
-
     return (
         <div className="header">
-            <Link to="/" onClick={() => handleClick("Accueil")}>
+            <Link to="/">
                 <img src={Logo} alt="logo Kasa" />
             </Link>
             <nav className="headerNav">
@@ -17,7 +15,6 @@ function Header() {
                     <li>
                         <Link
                             to="/"
-                            onClick={() => handleClick("Accueil")}
                             className={
                                 location.pathname === "/" ? "active" : ""
                             }
@@ -28,14 +25,13 @@ function Header() {
                     <li>
                         <Link
                             to="/a_propos"
-                            onClick={() => handleClick("A Propos")}
                             className={
                                 location.pathname === "/a_propos"
                                     ? "active"
                                     : ""
                             }
                         >
-                            A propos
+                            A Propos
                         </Link>
                     </li>
                 </ul>

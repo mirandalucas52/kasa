@@ -8,4 +8,24 @@
     justify-content: space-evenly;
     padding-bottom: 3rem;
     margin-bottom: 7rem;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .accueil .banner .texte {
+        font-size: 1.7rem;
+        white-space: normal;
+        width: 95%;
+    }
+    .accueil .item {
+        width: 100%;
+    }
+    .accueil .banner {
+        height: 150px;
+    }
+
+    .accueil .gallery {
+        background-color: initial;
+        display: block;
+    }
 }
