@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Error from "./pages/Error";
 import Footer from "./layout/Footer";
 import Logement from "./pages/Logement";
-import Logements from "./logements.json"; //
+import Logements from "./logements.json";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>

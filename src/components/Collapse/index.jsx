@@ -10,7 +10,7 @@ function Dropdown(props) {
     };
 
     return (
-        <div className="dropdown-container">
+        <article className="dropdown-container">
             <div className="dropdown-title" onClick={handleToggle}>
                 {props.title}
                 <div className={`dropdown-arrow ${isOpen ? "open" : ""}`}>
@@ -18,7 +18,7 @@ function Dropdown(props) {
                 </div>
             </div>
             {isOpen && <div className="dropdown-content">{props.children}</div>}
-        </div>
+        </article>
     );
 }
 

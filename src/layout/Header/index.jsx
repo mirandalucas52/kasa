@@ -6,7 +6,7 @@ function Header() {
     const location = useLocation();
 
     return (
-        <div className="header">
+        <header className="header">
             <Link to="/">
                 <img src={Logo} alt="logo Kasa" />
             </Link>
@@ -36,7 +36,7 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
     );
 }
 

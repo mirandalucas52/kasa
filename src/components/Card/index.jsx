@@ -5,7 +5,7 @@ function Item(props) {
     return (
         <Link to={`/logement/${props.id}`}>
             <figure className="item">
-                <h1 className="locationTitle">{props.title}</h1>
+                <figcaption className="locationTitle">{props.title}</figcaption>
                 <img src={props.cover} alt={props.title} />
             </figure>
         </Link>

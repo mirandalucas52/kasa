@@ -17,18 +17,18 @@ function Accueil() {
     }, []);
 
     return (
-        <div className="accueil">
+        <main className="accueil">
             <Banner
                 displayText={true}
                 imageSrc={BannerImage}
                 imageAlt="Bord de mer"
             />
-            <div className="gallery">
+            <section className="gallery">
                 {datas.map((data) => (
                     <Card key={data.id} {...data} />
                 ))}
-            </div>
-        </div>
+            </section>
+        </main>
     );
 }
 

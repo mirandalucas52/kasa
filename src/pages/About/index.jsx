@@ -5,7 +5,7 @@ import "./About.css";
 
 function Apropos() {
     return (
-        <div>
+        <main>
             <Banner
                 displayText={false}
                 imageSrc={BannerImageApropos}
@@ -47,7 +47,7 @@ function Apropos() {
                     </p>
                 </Collapse>
             </section>
-        </div>
+        </main>
     );
 }
 
