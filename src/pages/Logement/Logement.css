@@ -25,6 +25,11 @@
     line-height: 1.5;
 }
 
+.wrapHostRating {
+    position: relative;
+    right: -30px;
+}
+
 .logementHostPicture {
     height: 64px;
     width: 64px;
