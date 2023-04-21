@@ -83,7 +83,7 @@
     justify-content: space-between;
 }
 
-.collapseContainer > div {
+.collapseContainer > article {
     width: 46%;
 }
 
@@ -144,11 +144,11 @@
         display: block;
     }
 
-    .collapseContainer > div {
+    .collapseContainer > article {
         width: 100%;
     }
 
-    .collapseContainer > div:nth-child(2) {
+    .collapseContainer > article:nth-child(2) {
         margin-top: -1.7rem;
     }
 
